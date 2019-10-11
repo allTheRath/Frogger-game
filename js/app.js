@@ -114,7 +114,6 @@ class Player {
   update(a = 0, b = 0) {
     this.a += a;
     this.b += b;
-
   }
   
   render() {
@@ -159,7 +158,10 @@ class Player {
       }
       allEnemies.forEach(element => {
         element.reset(element, this.level);
+        element.speed += 1.2;
       });
+
+      
     }
 
     if(this.a > 485 || this.b > 400 || this.a < -50 || this.b < -55) {

@@ -1,3 +1,18 @@
 body {
     text-align: center;
+    background-color: black;
+    background-image: url("http://shoppopgallery.com/wp-content/uploads/2019/06/gamer-backgrounds-92-images-in-collection-page-2-qualified-background-quirky-5.jpg");
+}
+
+.flex-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.style {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2vw;
+    color: cornflowerblue;
 }
